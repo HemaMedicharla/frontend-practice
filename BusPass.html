@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSPASS REGISTRATION</title>
+  
+    
+</head>
+<body style="margin: 0; padding: 0;">
+    
+    <CENTER>
+        <table width="75%" cellpadding="25" style="background-color: #e8edff; border-radius: 30px; margin-top: 20px;">
+            <tr>
+                <td align="center">
+                    <img src="https://i.pinimg.com/736x/fe/44/50/fe4450334de55941cb47161dfd0ea602.jpg" alt="logo" width="60px" height="60px">
+                    <h1 style="font-size: 30PX; color: blue;">TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+                     <H1>GENARAL BUS PASS APPLICATION</H1>
+
+                </td>
+            </tr>
+
+        </table>
+        
+    </CENTER>
+    <form action="BUSREG.html">
+        <fieldset style=" width:70%; margin:20px auto; border:1px solid #cfcfcf; border-radius:10px; padding:20px;">
+            <legend style="padding:6px 15px;background-color:#2d7fc1;color:white;font-size:18px;border-radius:8px;">APPLICANT DETAILS</legend>
+          <table width="100%" cellpadding="8">
+            <tr>
+                <td>Name *</td>
+                <td><input type="text" name="fname" id="name" required pattern="[a-zA-Z]{3,20}" title="(Maximum Characters: 20)" maxlength="20" > <br><font color="red">(Maximum characters: 20)</font></td>
+                <td>Father's / Guradian's Name *</td>
+                <td><input type="text"  name="fname" id="name" required pattern="[a-zA-Z]{3,20}" title="(Maximum Characters: 20)" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth *</td>
+                <td><input type="text" pattern="\d{2}/\d{2}/\d{4}" placeholder="dd/mm/yyyy" required></td>
+                <td>Gender *</td>
+                <td >
+                    <input type="radio" name="mr">Female
+                    <input type="radio" name="mr" >male
+                </td>
+            </tr>
+            <tr>
+                <td>Age As on:</td>
+                <td>
+                    <input type="text" size="4">Year(s)
+                    <input type="text" size="4">Month(s)
+                    <input type="text" size="4">Day(s)
+                </td>
+                <td>Adhaar No:</td>
+                <td><input type="text" pattern="[0-9]{12}" title="Enter 12 digit Aadhaar number" required></td>
+
+            </tr>
+            <tr>
+                <td>WhatsApp No *</td>
+                <td><input type="text" pattern="(\+91)?[6-9][0-9]{9}" title="enter your number Indian standard"></td>
+                <td>E-mail Id *</td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td>Photo *</td>
+                <td><input type="file" required></td>
+            </tr>
+
+          </table>
+
+        </fieldset>
+        <fieldset style=" width:70%; margin:20px auto; border:1px solid #cfcfcf; border-radius:10px; padding:20px;">
+            <legend style="padding:6px 15px;background-color:#2d7fc1;color:white;font-size:18px;border-radius:8px;">Residental Address Details</legend>
+          <table width="100%" cellpadding="8">
+            <tr>
+                <td>Applicant's Address *</td>
+                <td style="margin-left: 20;"><textarea rows="4" cols="30"> </textarea> <br><font color="red">(Maximum characters: 20) <br> You have <input type="text" size="2" value="20"> characters left</font></td>
+                <td>District *</td>
+                <td>
+                    <select>
+                        <option selected>----Select----</option>
+                        <option>Hyderbad</option>
+                        <option>Kukatpally</option>
+                        <option>Madhapur</option>
+                        <option>Miyapur</option>
+                        <option>Hitech City</option>
+                        <option>Gachibowli</option>
+                        <option>Kondapur</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Mandal *</td>
+                <td>
+                    <select>
+                        <option selected>----Select----</option>
+                        <option>Ameerpet</option>
+                        <option>Bahadurpura</option>
+                        <option>Charminar</option>
+                        <option>Khairatabad</option>
+                        <option>Hyderbad</option>
+                        <option>Secunderabad</option>
+                        <option>Nampally</option>
+                    </select>
+                </td>
+                 <td>Village *</td>
+                <td>
+                    <select>
+                        <option selected>----Select----</option>
+                        <option>kukatpally</option>
+                        <option>Moosapet</option>
+                        <option>Balanagar</option>
+                        <option>Nizampet</option>
+                        <option>Chintal</option>
+                        <option>Pragathi Nagar</option>
+                        <option>Gopal Nagar</option>
+                    </select>
+                </td>
+                
+            </tr>
+            <tr>
+                <tr>
+                    <td>Pincode *</td>
+                    <td>
+                    <input type="text" pattern="[1-9][0-9]{5}" maxlength="6" title="Enter a valid 6-digit pincode" required>
+                    </td>
+                </tr>
+            </tr>
+          </table>
+
+        </fieldset>
+        <fieldset style=" width:70%; margin:20px auto; border:1px solid #cfcfcf; border-radius:10px; padding:20px;">
+            <legend style="padding:6px 15px;background-color:#2d7fc1;color:white;font-size:18px;border-radius:8px;">Pass Type Details</legend>
+          <table width="100%" cellpadding="8">
+            <tr>
+                <td>City *</td>
+                <td>
+                    <select>
+                        <option selected>----Select----</option>
+                        <option>Hyderbad</option>
+                        <option>Kukatpally</option>
+                        <option>Madhapur</option>
+                        <option>Miyapur</option>
+                        <option>Hitech City</option>
+                        <option>Gachibowli</option>
+                        <option>Kondapur</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pass  Type *</td>
+                <td>
+                    <select >
+                        <option selected>----Select----</option>
+                        <option>GREATER PASS</option>
+                        <option>GENERAL ORDINARY ROUTE PASS MTLY</option>
+                        <option>GENERAL METRO ROUTE PASS MTLY</option>
+                        <option>ORDINARY PASS</option>
+                        <option>METRO EXPRESS PASS</option>
+                        <option>METRO DELUXE PASS</option>
+                    </select>
+                </td>
+            </tr>
+
+            </table>
+
+        </fieldset>
+        <fieldset style=" width:70%; margin:20px auto; border:1px solid #cfcfcf; border-radius:10px; padding:20px;">
+            <legend style="padding:6px 15px;background-color:#2d7fc1;color:white;font-size:18px;border-radius:8px;">Mode Of Payment And Pass Collection</legend>
+          <table width="100%" cellpadding="8">
+            <TR>
+                <td>Payment Mode *</td>
+                <td>
+                    <select >
+                        <option selected>----Select----</option>
+                        <option>Payment At Counter</option>
+                        
+                    </select>
+                </td>
+
+            </TR>
+            <TR>
+                <td>Pass Delivery Mode *</td>
+                <td>
+                    <select >
+                        <option selected>----Select----</option>
+                        <option> At Counter</option>
+                        
+                    </select>
+                </td>
+
+            </TR>
+            <TR>
+                <td>Center at which <br>you want to collect <br>Pass *</td>
+               <td>
+               <select required style="width:250px;">
+            <option value="">-- Select Center --</option>
+            <option>RTC Cross Road</option>
+            <option>Kukatpally Depot</option>
+            <option>Miyapur Depot</option>
+            <option>Madhapur Depot</option>
+            <option>Hitech City Depot</option>
+            <option>Mehdipatnam Depot</option>
+            <option>Secunderabad Depot</option>
+            <option>Uppal Depot</option>
+            <option>LB Nagar Depot</option>
+            <option>Dilsukhnagar Depot</option>
+            <option>Charminar Depot</option>
+            <option>Ameerpet Depot</option>
+            <option>Gachibowli Depot</option>
+            <option>ECIL Depot</option>
+        </select>
+    </td>
+
+            </TR>
+          </table>
+        </fieldset>
+        
+        <center>
+               <button type="submit"style="background-color: rgb(191, 98, 114); color: white; border: white; padding: 0.5%;">Submit</button>
+        </center>
+
+        </form>
+
+  
+
+</body>
+</html>
